@@ -1,0 +1,43 @@
+{
+  "name": "blogging-api",
+  "version": "1.0.0",
+  "description": "Blogging API for the Fabrice553/Blogging-Api repository",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabrice553/Blogging-Api.git"
+  },
+  "keywords": [
+    "blog",
+    "api",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "Fabrice553",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.1",
+    "mongodb-memory-server": "^8.14.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^6.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Fabrice553/Blogging-Api/issues"
+  },
+  "homepage": "https://github.com/Fabrice553/Blogging-Api#readme"
+}
